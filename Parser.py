@@ -1,6 +1,6 @@
 import urllib.request
 import json
-import fetchFile    #importing fileFile to get the functuins
+import fetchFile    #importing fileFile to get the functions
 contents = urllib.request.urlopen("http://pi.hole/admin/api.php").read()    #reading the contents of the json page
 
 #getting seperately the content of what we want and using functions we return it to the main function
